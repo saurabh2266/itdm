@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-17T13:53:36.022898" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="C:\Users\abisw\OneDrive\Desktop\Robot framwork\ITEDUIM\testCase\demo.robot">
+<test id="s1-t1" name="ReadingTestdataFromXLSXusing using Chezerae D Howard and 065684100" line="30">
+<kw name="Invalid Login">
+<kw name="Open My Browser" owner="loginResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T13:53:36.820559" level="INFO">Opening browser 'Chrome' to base url 'https://ncshptest.partners.ncqa3.hrissuite.com/'.</msg>
+<arg>${Login_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-17T13:53:36.820559" elapsed="3.333982"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-01-17T13:53:40.161246" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<msg time="2024-01-17T13:53:40.168164" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-01-17T13:53:40.154541" elapsed="0.062819">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-01-17T13:53:36.820559" elapsed="3.396801">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<kw name="Get Supplemental ID" owner="getSupplementalID">
+<var>${supplementalID}</var>
+<arg>${Supplemental IDs}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.217360" elapsed="0.000000"/>
+</kw>
+<kw name="Get Employee Name" owner="getEmployeeName">
+<var>${name}</var>
+<arg>${memberName}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.217360" elapsed="0.000000"/>
+</kw>
+<kw name="Input username" owner="loginResources">
+<arg>${userid}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.217360" elapsed="0.000000"/>
+</kw>
+<kw name="Input password" owner="loginResources">
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Get Dashed SSN" owner="getDashedSSN">
+<var>${dashedSSN}</var>
+<arg>${SSN (or ID)}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${typeOFDOB}</var>
+<arg>type($DOB)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${DOBlength}</var>
+<arg>${DOB}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Click To Login" owner="loginResources">
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:intellisearch</arg>
+<arg>${supplementalID}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="side-bar"]/div/div/form/div/span/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.218407" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table</arg>
+<arg>2</arg>
+<arg>1</arg>
+<arg>${name["firstName"]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table</arg>
+<arg>2</arg>
+<arg>2</arg>
+<arg>${name["lastName"]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${accountType}</var>
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${accountType}' == 'Employee'">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>in the ifffffffffffffffffff---- ${accountType}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>title=Administration Portal</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/table</arg>
+<arg>5</arg>
+<arg>2</arg>
+<arg>${Sex[0]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${DOBlength} == 0">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This line IS executed.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>ENDENDENDENDENDENDENDENDENDENDENDEND.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:40.220537" elapsed="0.000000"/>
+</if>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/table</arg>
+<arg>7</arg>
+<arg>2</arg>
+<arg>${dashedSSN}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${_actualAddress}</var>
+<arg>//*[@id="page_36"]/div[2]/div/table/tbody/tr[2]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Get Address As Test Data" owner="getAddressAsTestData">
+<var>${actualAddress}</var>
+<arg>${_actualAddress}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Replace" owner="replace">
+<var>${actualAddressWithoutCommas}</var>
+<arg>${actualAddress}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Replace" owner="replace">
+<var>${addressWithoutCommas}</var>
+<arg>${Address}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${Phonelength}</var>
+<arg>${M Phone}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${Phonelength} == 16">
+<kw name="Get Dashed Mobile Number" owner="getDashedMobileNumber">
+<var>${mobileNumber}</var>
+<arg>${M Phone}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${contactsTableWebelement}</var>
+<arg>//*[@id="page_36"]/div[2]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${contactsTableRowCount}</var>
+<arg>${contactsTableWebelement}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${contactsTableRowCount} == 3">
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[2]/div/table</arg>
+<arg>3</arg>
+<arg>3</arg>
+<arg>${mobileNumber.strip()}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[2]/div/table</arg>
+<arg>4</arg>
+<arg>3</arg>
+<arg>${mobileNumber.strip()}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</if>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.001004"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:40.221582" elapsed="0.001004"/>
+</if>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${employment_record_row_elements}</var>
+<arg>//*[@id="page_37"]/div[1]/div/table/tbody/tr[2]</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${employment_record_row_count}</var>
+<arg>${employment_record_row_elements}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${Employment}' == 'TE'">
+<kw name="Should Be Equal As Numbers" owner="BuiltIn">
+<arg>${employment_record_row_count}</arg>
+<arg>1</arg>
+<doc>Fails if objects are unequal after converting them to real numbers.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${activeBenefitsRowElementForTE}</var>
+<arg>//*[@id="page_38"]/div[1]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${activeBenefitsRowCountForTE}</var>
+<arg>${activeBenefitsRowElementForTE}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${typeactiveBenefitsRowCount}</var>
+<arg>type('${activeBenefitsRowCountForTE}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.223681" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.001095"/>
+</branch>
+<branch type="ELSE">
+<kw name="Should Not Be Equal" owner="BuiltIn">
+<arg>${employment_record_row_count}</arg>
+<arg>1</arg>
+<doc>Fails if the given objects are equal.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${activeBenefitsRowElement}</var>
+<arg>//*[@id="page_38"]/div[1]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${activeBenefitsRowCount}</var>
+<arg>${activeBenefitsRowElement}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>2</arg>
+<arg>${Plan Description}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.001344"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>4</arg>
+<arg>${Benefit Begin.replace("-", "/")}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>5</arg>
+<arg>${Benefit End.replace("-", "/")}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/div[1]/a[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<arg>//*[@id="hire_date"]</arg>
+<arg>${Employment Begin.replace("-", "/")}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.226322" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:40.224978" elapsed="0.002366"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:40.222586" elapsed="0.004758"/>
+</if>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.007854"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:40.219490" elapsed="0.007854"/>
+</if>
+<kw name="Close Browsers" owner="loginResources">
+<status status="NOT RUN" start="2024-01-17T13:53:40.227344" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>--------------Employment Begin-----&gt; ${Employment Begin.replace("-", "/")}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:40.227344" elapsed="0.000000"/>
+</kw>
+<arg>(23:NQAUKJANPGMH),(ABB:000080252)</arg>
+<arg>Chezerae D Howard</arg>
+<arg>M</arg>
+<arg>065684100</arg>
+<arg>510 Rolling Brook Drive Apt 20, Charlotte, NC 28217</arg>
+<arg>Home: 3152924182</arg>
+<arg>TE</arg>
+<arg>SHP00002</arg>
+<arg>01-01-2024</arg>
+<arg>01-01-2024</arg>
+<arg>09-19-2022</arg>
+<status status="FAIL" start="2024-01-17T13:53:36.819465" elapsed="3.407879">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-01-17T13:53:36.818377" elapsed="3.408967">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</test>
+<test id="s1-t2" name="ReadingTestdataFromXLSXusing using Laura A O'shea and 076685571" line="30">
+<kw name="Invalid Login">
+<kw name="Open My Browser" owner="loginResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T13:53:40.233949" level="INFO">Opening browser 'Chrome' to base url 'https://ncshptest.partners.ncqa3.hrissuite.com/'.</msg>
+<arg>${Login_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-17T13:53:40.232761" elapsed="4.302849"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-01-17T13:53:44.542578" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<msg time="2024-01-17T13:53:44.548963" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-01-17T13:53:44.535610" elapsed="0.015353">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-01-17T13:53:40.232761" elapsed="4.318202">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<kw name="Get Supplemental ID" owner="getSupplementalID">
+<var>${supplementalID}</var>
+<arg>${Supplemental IDs}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.550963" elapsed="0.000000"/>
+</kw>
+<kw name="Get Employee Name" owner="getEmployeeName">
+<var>${name}</var>
+<arg>${memberName}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.550963" elapsed="0.001000"/>
+</kw>
+<kw name="Input username" owner="loginResources">
+<arg>${userid}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.551963" elapsed="0.000000"/>
+</kw>
+<kw name="Input password" owner="loginResources">
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.551963" elapsed="0.000000"/>
+</kw>
+<kw name="Get Dashed SSN" owner="getDashedSSN">
+<var>${dashedSSN}</var>
+<arg>${SSN (or ID)}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.551963" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${typeOFDOB}</var>
+<arg>type($DOB)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.551963" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${DOBlength}</var>
+<arg>${DOB}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.551963" elapsed="0.000000"/>
+</kw>
+<kw name="Click To Login" owner="loginResources">
+<status status="NOT RUN" start="2024-01-17T13:53:44.552963" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:intellisearch</arg>
+<arg>${supplementalID}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.552963" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="side-bar"]/div/div/form/div/span/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.553963" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.553963" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table</arg>
+<arg>2</arg>
+<arg>1</arg>
+<arg>${name["firstName"]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.554964" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table</arg>
+<arg>2</arg>
+<arg>2</arg>
+<arg>${name["lastName"]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.554964" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${accountType}</var>
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.554964" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${accountType}' == 'Employee'">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>in the ifffffffffffffffffff---- ${accountType}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.555964" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.555964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.555964" elapsed="0.000000"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>title=Administration Portal</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.555964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.555964" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/table</arg>
+<arg>5</arg>
+<arg>2</arg>
+<arg>${Sex[0]}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${DOBlength} == 0">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This line IS executed.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>ENDENDENDENDENDENDENDENDENDENDENDEND.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</if>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/table</arg>
+<arg>7</arg>
+<arg>2</arg>
+<arg>${dashedSSN}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.556963" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${_actualAddress}</var>
+<arg>//*[@id="page_36"]/div[2]/div/table/tbody/tr[2]/td[3]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.557975" elapsed="0.000000"/>
+</kw>
+<kw name="Get Address As Test Data" owner="getAddressAsTestData">
+<var>${actualAddress}</var>
+<arg>${_actualAddress}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.557975" elapsed="0.000000"/>
+</kw>
+<kw name="Replace" owner="replace">
+<var>${actualAddressWithoutCommas}</var>
+<arg>${actualAddress}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.557975" elapsed="0.000000"/>
+</kw>
+<kw name="Replace" owner="replace">
+<var>${addressWithoutCommas}</var>
+<arg>${Address}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.557975" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${Phonelength}</var>
+<arg>${M Phone}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${Phonelength} == 16">
+<kw name="Get Dashed Mobile Number" owner="getDashedMobileNumber">
+<var>${mobileNumber}</var>
+<arg>${M Phone}</arg>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${contactsTableWebelement}</var>
+<arg>//*[@id="page_36"]/div[2]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${contactsTableRowCount}</var>
+<arg>${contactsTableWebelement}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.001001"/>
+</kw>
+<if>
+<branch type="IF" condition="${contactsTableRowCount} == 3">
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[2]/div/table</arg>
+<arg>3</arg>
+<arg>3</arg>
+<arg>${mobileNumber.strip()}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.559964" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.559964" elapsed="0.000000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[2]/div/table</arg>
+<arg>4</arg>
+<arg>3</arg>
+<arg>${mobileNumber.strip()}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.560966" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.559964" elapsed="0.001002"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:44.559964" elapsed="0.001002"/>
+</if>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.002003"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:44.558963" elapsed="0.002003"/>
+</if>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.560966" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.561967" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${employment_record_row_elements}</var>
+<arg>//*[@id="page_37"]/div[1]/div/table/tbody/tr[2]</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.561967" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${employment_record_row_count}</var>
+<arg>${employment_record_row_elements}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.561967" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${Employment}' == 'TE'">
+<kw name="Should Be Equal As Numbers" owner="BuiltIn">
+<arg>${employment_record_row_count}</arg>
+<arg>1</arg>
+<doc>Fails if objects are unequal after converting them to real numbers.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${activeBenefitsRowElementForTE}</var>
+<arg>//*[@id="page_38"]/div[1]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.001000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${activeBenefitsRowCountForTE}</var>
+<arg>${activeBenefitsRowElementForTE}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.563963" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${typeactiveBenefitsRowCount}</var>
+<arg>type('${activeBenefitsRowCountForTE}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.563963" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.001000"/>
+</branch>
+<branch type="ELSE">
+<kw name="Should Not Be Equal" owner="BuiltIn">
+<arg>${employment_record_row_count}</arg>
+<arg>1</arg>
+<doc>Fails if the given objects are equal.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.563963" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.563963" elapsed="0.001001"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<var>${activeBenefitsRowElement}</var>
+<arg>//*[@id="page_38"]/div[1]/div/table/tbody/tr</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<var>${activeBenefitsRowCount}</var>
+<arg>${activeBenefitsRowElement}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>2</arg>
+<arg>${Plan Description}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>4</arg>
+<arg>${Benefit Begin.replace("-", "/")}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.564964" elapsed="0.000000"/>
+</kw>
+<kw name="Table Cell Should Contain" owner="SeleniumLibrary">
+<arg>//*[@id="page_38"]/div[1]/div/table</arg>
+<arg>2</arg>
+<arg>5</arg>
+<arg>${Benefit End.replace("-", "/")}</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="main-content"]/div/div[2]/div/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id="page_36"]/div[1]/div[1]/div[1]/a[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<kw name="Textfield Value Should Be" owner="SeleniumLibrary">
+<arg>//*[@id="hire_date"]</arg>
+<arg>${Employment Begin.replace("-", "/")}</arg>
+<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.565964" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-01-17T13:53:44.563963" elapsed="0.002001"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:44.562963" elapsed="0.003001"/>
+</if>
+<status status="NOT RUN" start="2024-01-17T13:53:44.554964" elapsed="0.012000"/>
+</branch>
+<status status="NOT RUN" start="2024-01-17T13:53:44.554964" elapsed="0.012000"/>
+</if>
+<kw name="Close Browsers" owner="loginResources">
+<status status="NOT RUN" start="2024-01-17T13:53:44.566964" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>--------------Employment Begin-----&gt; ${Employment Begin.replace("-", "/")}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2024-01-17T13:53:44.566964" elapsed="0.000000"/>
+</kw>
+<arg>(23:NJE4NNMMMFCA),(ABB:000084765)</arg>
+<arg>Laura A O'shea</arg>
+<arg>F</arg>
+<arg>07-10-1968</arg>
+<arg>076685571</arg>
+<arg>320 Park Ave, Davidson, NC 28036</arg>
+<arg>Home: 5164588612</arg>
+<arg>FT</arg>
+<arg>SHP00002</arg>
+<arg>01-01-2024</arg>
+<arg>12-31-2024</arg>
+<arg>11-09-2023</arg>
+<status status="FAIL" start="2024-01-17T13:53:40.232761" elapsed="4.334203">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-01-17T13:53:40.230629" elapsed="4.337334">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</status>
+</test>
+<test id="s1-t3" name="ReadingTestdataFromXLSXusing using Georgianna P Farwell and 190547452" line="30">
+<kw name="Invalid Login">
+<kw name="Open My Browser" owner="loginResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-17T13:53:44.574964" level="INFO">Opening browser 'Chrome' to base url 'https://ncshptest.partners.ncqa3.hrissuite.com/'.</msg>
+<errors>
+<msg time="2024-01-17T13:53:40.161246" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<msg time="2024-01-17T13:53:44.542578" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF512142+3514994]
+	(No symbol) [0x00007FF6AF130CE2]
+	(No symbol) [0x00007FF6AEFD76AA]
+	(No symbol) [0x00007FF6AEFB0AFD]
+	(No symbol) [0x00007FF6AF04CB1B]
+	(No symbol) [0x00007FF6AF06218F]
+	(No symbol) [0x00007FF6AF045D93]
+	(No symbol) [0x00007FF6AF014BDC]
+	(No symbol) [0x00007FF6AF015C64]
+	GetHandleVerifier [0x00007FF6AF53E16B+3695259]
+	GetHandleVerifier [0x00007FF6AF596737+4057191]
+	GetHandleVerifier [0x00007FF6AF58E4E3+4023827]
+	GetHandleVerifier [0x00007FF6AF2604F9+689705]
+	(No symbol) [0x00007FF6AF13C048]
+	(No symbol) [0x00007FF6AF138044]
+	(No symbol) [0x00007FF6AF1381C9]
+	(No symbol) [0x00007FF6AF1288C4]
+	BaseThreadInitThunk [0x00007FFA797C257D+29]
+	RtlUserThreadStart [0x00007FFA7B4AAA58+40]
+</msg>
+<msg time="2024-01-17T13:53:47.881800" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>

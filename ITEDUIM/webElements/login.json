@@ -1,0 +1,5 @@
+{
+    "txt_username": "id:username",
+    "txt_password": "id:password",
+    "btn_submit":  "//*[@id='loginform']/div[3]/button"
+}
